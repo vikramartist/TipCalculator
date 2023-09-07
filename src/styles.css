@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-bill {
+  width: 80%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.service {
+  width: 80%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.display {
+  display: flex;
+  padding: 0.5rem;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.reset {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.reset button {
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+}
